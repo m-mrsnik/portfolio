@@ -38,7 +38,7 @@
 
     <div class="project-header">
       <div class="project-title-row">
-        <div class="project-icon"><image-slot id="proj2-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <div class="project-icon"><image-slot id="proj2-icon" shape="rect" placeholder="Icon" src="./assets/proj2-icon.webp"></image-slot></div>
         <h2 class="project-title">PDP Project</h2>
       </div>
       <p class="project-summary">Research showed shoppers wanted clear language with the option to go deeper. I redesigned PDP hierarchy and storytelling into two templates — a richer one for our flagship product to highlight added value, and a simpler one for the rest of the line.</p>
@@ -87,17 +87,17 @@
 
     <div class="project-header">
       <div class="project-title-row">
-        <div class="project-icon"><image-slot id="proj1-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <div class="project-icon"><image-slot id="proj1-icon" shape="rect" placeholder="Icon" src="./assets/proj1-icon.webp"></image-slot></div>
         <h2 class="project-title">A faster checkout built to convert</h2>
       </div>
       <p class="project-summary">Data showed 90%+ of orders were single-item, making a multi-item cart unnecessary. Removing it and simplifying checkout increased conversion and reduced time to purchase.</p>
     </div>
 
     <div class="media-row">
-      <div class="media-main"><div onClick="{{ openProjImg1 }}" class="media-click"><image-slot id="proj-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-main"><image-slot id="proj-img-1" shape="rounded" radius="8" placeholder="Drop image 1" src="./assets/proj-img-1.webp"></image-slot></div>
       <div class="media-side">
-        <div onClick="{{ openProjImg2 }}" class="media-click"><image-slot id="proj-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
-        <div onClick="{{ openProjImg4 }}" class="media-click"><image-slot id="proj-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+        <image-slot id="proj-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb" src="./assets/proj-img-2.webp"></image-slot>
+        <image-slot id="proj-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb" src="./assets/proj-img-4.webp"></image-slot>
       </div>
     </div>
 
@@ -140,17 +140,17 @@
 
     <div class="project-header">
       <div class="project-title-row">
-        <div class="project-icon"><image-slot id="proj3-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <div class="project-icon"><image-slot id="proj3-icon" shape="rect" placeholder="Icon" src="./assets/proj3-icon.webp"></image-slot></div>
         <h2 class="project-title">Eargo Mobile App</h2>
       </div>
       <p class="project-summary">The path to editing hearing programs was unclear and slow. I redesigned the flow end to end, giving users a clearer, faster way to adjust their programs.</p>
     </div>
 
     <div class="media-row">
-      <div class="media-main"><div onClick="{{ openProj3Img1 }}" class="media-click"><image-slot id="proj3-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-main"><image-slot id="proj3-img-1" shape="rounded" radius="8" placeholder="Drop image 1" src="./assets/proj3-img-1.webp"></image-slot></div>
       <div class="media-side">
-        <div onClick="{{ openProj3Img2 }}" class="media-click"><image-slot id="proj3-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
-        <div onClick="{{ openProj3Img4 }}" class="media-click"><image-slot id="proj3-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+        <image-slot id="proj3-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb" src="./assets/proj3-img-2.webp"></image-slot>
+        <image-slot id="proj3-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb" src="./assets/proj3-img-4.webp"></image-slot>
       </div>
     </div>
 
@@ -186,58 +186,29 @@
     <div class="gallery-body">
     <h2 class="gallery-heading">Gallery</h2>
     <div class="media-row">
-      <div class="media-main"><div onClick="{{ openGalleryImg1 }}" class="media-click"><image-slot id="gallery-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-main"><image-slot id="gallery-img-1" shape="rounded" radius="8" placeholder="Drop image 1" src="./assets/gallery-img-1.webp"></image-slot></div>
       <div class="media-side">
-        <div onClick="{{ openGalleryImg2 }}" class="media-click"><image-slot id="gallery-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
-        <div onClick="{{ openGalleryImg4 }}" class="media-click"><image-slot id="gallery-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+        <image-slot id="gallery-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb" src="./assets/gallery-img-2.webp"></image-slot>
+        <image-slot id="gallery-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb" src="./assets/gallery-img-4.webp"></image-slot>
       </div>
     </div>
     <div class="media-row media-row--spaced">
-      <div class="media-main"><div onClick="{{ openGalleryImg5 }}" class="media-click"><image-slot id="gallery-img-5" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-main"><image-slot id="gallery-img-5" shape="rounded" radius="8" placeholder="Drop image 1" src="./assets/gallery-img-5.webp"></image-slot></div>
       <div class="media-side">
-        <div onClick="{{ openGalleryImg6 }}" class="media-click"><image-slot id="gallery-img-6" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
-        <div onClick="{{ openGalleryImg8 }}" class="media-click"><image-slot id="gallery-img-8" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+        <image-slot id="gallery-img-6" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb" src="./assets/gallery-img-6.webp"></image-slot>
+        <image-slot id="gallery-img-8" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb" src="./assets/gallery-img-8.webp"></image-slot>
       </div>
     </div>
     </div>
   </section>
-
-  <sc-if value="{{ hasLightbox }}" hint-placeholder-val="{{ false }}">
-    <div onClick="{{ closeLightbox }}" class="lightbox-overlay">
-      <sc-if value="{{ hasLightbox }}">
-        <img src="{{ lightboxSrc }}" class="lightbox-image">
-      </sc-if>
-    </div>
-  </sc-if>
   </div>
 
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 
 class Component extends DCLogic {
-  state = { lightbox: null };
-
-  openLightbox(id) {
-    const el = document.getElementById(id);
-    const img = el && el.shadowRoot && el.shadowRoot.querySelector('img');
-    const src = img && img.getAttribute('src');
-    if (src) this.setState({ lightbox: src });
-  }
-
-  closeLightbox() { this.setState({ lightbox: null }); }
-
   renderVals() {
-    const mk = (id) => () => this.openLightbox(id);
-    return {
-      hasLightbox: !!this.state.lightbox,
-      lightboxSrc: this.state.lightbox || '',
-      closeLightbox: () => this.closeLightbox(),
-      openProjImg1: mk('proj-img-1'), openProjImg2: mk('proj-img-2'), openProjImg4: mk('proj-img-4'),
-      openProj2Img1: mk('proj2-img-1'), openProj2Img2: mk('proj2-img-2'), openProj2Img4: mk('proj2-img-4'),
-      openProj3Img1: mk('proj3-img-1'), openProj3Img2: mk('proj3-img-2'), openProj3Img4: mk('proj3-img-4'),
-      openGalleryImg1: mk('gallery-img-1'), openGalleryImg2: mk('gallery-img-2'), openGalleryImg4: mk('gallery-img-4'),
-      openGalleryImg5: mk('gallery-img-5'), openGalleryImg6: mk('gallery-img-6'), openGalleryImg8: mk('gallery-img-8')
-    };
+    return {};
   }
 }</script>
 </body>
