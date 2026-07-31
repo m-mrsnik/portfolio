@@ -63,7 +63,6 @@ a:hover { color: oklch(48% 0.13 155); }
 .media-row--spaced { margin-top: 16px; }
 .media-main { width: 50%; height: 700px; max-height: 700px; }
 .media-side { width: 50%; height: 700px; display: flex; flex-direction: column; gap: 16px; }
-.media-click { width: 100%; height: 100%; cursor: pointer; }
 .media-thumb { width: 100%; height: 342px; object-fit: cover; }
 
 .project-details { display: flex; flex-direction: column; gap: 40px; margin-top: 24px; }
@@ -91,16 +90,3 @@ a:hover { color: oklch(48% 0.13 155); }
 }
 .gallery-body { min-width: 0; }
 .gallery-heading { font-family: 'Inter', Arial, sans-serif; font-size: 22px; font-weight: 700; margin: 0 0 24px; }
-
-/* lightbox */
-.lightbox-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  cursor: zoom-out;
-}
-.lightbox-image { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 8px; }
