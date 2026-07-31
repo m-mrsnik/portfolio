@@ -10,216 +10,235 @@
 <helmet>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Helvetica+Neue:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <script src="./image-slot.js"></script>
   <link rel="stylesheet" href="./style.css">
 </helmet>
 
 <div class="page">
 
-  <nav class="nav">
-    <div class="nav-logo">Mark Mrsnik</div>
-    <div class="nav-links">
-      <a href="#intro" class="nav-link">Introduction</a>
-      <a href="#highlights" class="nav-link">Highlights</a>
-      <a href="#work" class="nav-link">Case Studies</a>
-      <a href="#resume" class="nav-link">Resume</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </div>
-  </nav>
-
   <section id="intro" data-screen-label="Introduction" class="section-intro">
-    <div class="eyebrow-intro color-teal">Director of Product Design</div>
-    <h1 class="intro-heading">Design leadership across mobile, ecommerce, and clinical products.</h1>
-    <p class="intro-lead">Product designer with 15+ years spanning UX strategy, design systems, front-end development, and team leadership. I specialize in component-based design and translating ambiguous requests into clear, data-driven solutions — building cohesive, scalable experiences that put users first while balancing business outcomes.</p>
-    <div class="intro-actions">
-      <a href="#work" class="btn btn--dark-bg">View Case Studies</a>
-      <a href="#contact" class="btn btn--outline">Get in Touch</a>
+    <img src="./assets/logo-mark.png" alt="Mark Mrsnik logo" class="intro-logo">
+    <div class="intro-content">
+      <h1 class="intro-heading">Designs built around users, grounded in accessibility.</h1>
+      <div class="intro-text">
+        <p class="intro-lead">Product designer with 15+ years spanning UX strategy, design systems, front-end development, and team leadership.</p>
+        <p class="intro-sub">I specialize in component-based design and translating ambiguous requests into clear, data-driven solutions — building cohesive, scalable experiences that put users first while balancing business outcomes.</p>
+      </div>
+      <div class="intro-actions">
+        <a href="mailto:mark.mrsnik@gmail.com" class="btn">Get in Touch</a>
+      </div>
     </div>
   </section>
 
-  <section id="highlights" data-screen-label="Highlights" class="section-highlights">
-    <div>
-      <div class="eyebrow color-blue">Career Highlights</div>
-      <h2 class="section-heading">Where I've made an impact</h2>
+  <section id="project-2" data-screen-label="PDP Project" class="section-project">
+
+    <div></div>
+    <div class="project-body">
+
+    <div class="project-header">
+      <div class="project-title-row">
+        <div class="project-icon"><image-slot id="proj2-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <h2 class="project-title">PDP Project</h2>
+      </div>
+      <p class="project-summary">Research showed shoppers wanted clear language with the option to go deeper. I redesigned PDP hierarchy and storytelling into two templates — a richer one for our flagship product to highlight added value, and a simpler one for the rest of the line.</p>
     </div>
 
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-number color-blue">15+</div>
-        <div class="stat-label">Years in UX &amp; product design</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number color-teal">3</div>
-        <div class="stat-label">Brands &amp; product teams led simultaneously</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number color-orange">150+</div>
-        <div class="stat-label">Users interviewed through a weekly research cadence</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number color-blue">16%</div>
-        <div class="stat-label">Lift in BNPL adoption from a checkout redesign</div>
-      </div>
+    <div class="embed-row">
+      <div class="embed-primary"><iframe class="embed-frame" src="https://embed.figma.com/proto/4BGOWYoWVyRzSeM3rtX9vJ/Untitled?node-id=1-1152&amp;viewport=800%2C3675%2C0.26&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=1%3A1152&amp;page-id=0%3A1&amp;embed-host=share" allowfullscreen></iframe></div>
+      <div class="embed-secondary"><iframe class="embed-frame" src="https://embed.figma.com/proto/GVwpd7p5uHZGn1S69uG3ku/PDP---Mobile?node-id=1-187&amp;viewport=330%2C294%2C0.4&amp;scaling=scale-down&amp;content-scaling=fixed&amp;starting-point-node-id=1%3A187&amp;page-id=0%3A1&amp;embed-host=share" allowfullscreen></iframe></div>
     </div>
 
-    <div class="highlights-columns">
+    <div class="project-details">
       <div>
-        <h3 class="highlights-heading">Leadership &amp; Strategy</h3>
-        <ul class="bullet-list">
-          <li class="bullet-item"><span class="bullet-dash color-blue">—</span>Design strategy &amp; product vision / roadmap development</li>
-          <li class="bullet-item"><span class="bullet-dash color-blue">—</span>DesignOps and cross-brand design system governance</li>
-          <li class="bullet-item"><span class="bullet-dash color-blue">—</span>Mentoring designers across UX, print, and digital marketing</li>
-          <li class="bullet-item"><span class="bullet-dash color-blue">—</span>WCAG 2.1 AA accessibility compliance &amp; Lighthouse audits</li>
+        <h3 class="project-details-heading">Problem</h3>
+        <ul class="project-details-list">
+          <li><strong>Unclear value</strong> — shoppers struggled to understand what set each hearing aid apart.</li>
+          <li><strong>Too much to digest</strong> — dense, unstructured content overwhelmed shoppers before they could decide.</li>
+          <li><strong>Look-alike products, different prices</strong> — visually similar products with very different price points made comparison difficult.</li>
         </ul>
       </div>
       <div>
-        <h3 class="highlights-heading">Craft &amp; Tools</h3>
-        <div class="tag-row">
-          <span class="tag tag--blue">Figma</span>
-          <span class="tag tag--teal">Atomic Design</span>
-          <span class="tag tag--orange">Design Systems</span>
-          <span class="tag tag--blue">User Interviews</span>
-          <span class="tag tag--teal">HTML / CSS / JS</span>
-          <span class="tag tag--orange">FullStory</span>
-          <span class="tag tag--blue">Prompt Engineering</span>
-        </div>
+        <h3 class="project-details-heading">Solution</h3>
+        <ul class="project-details-list">
+          <li><strong>Flagship template</strong> — polished assets, richer content, and animation to tell the story behind the higher-priced product.</li>
+          <li><strong>Standard template</strong> — a more static, direct content approach for the rest of the product line.</li>
+          <li><strong>Plain, benefit-first language</strong> — replaced industry jargon with common terms, leading every statement with the benefit to the shopper to build up product value.</li>
+        </ul>
       </div>
+      <div>
+        <h3 class="project-details-heading">Outcome</h3>
+        <ul class="project-details-list">
+          <li><strong>More time on page</strong> — shoppers engaged more deeply with the content.</li>
+          <li><strong>Fewer support calls</strong> — fewer shoppers needed to call in with product questions.</li>
+          <li><strong>More website orders and better conversion</strong> — clearer content moved more shoppers to purchase online.</li>
+          <li><strong>Increased trust</strong> — shoppers felt more confident they were making the right decision.</li>
+        </ul>
+      </div>
+    </div>
+
     </div>
   </section>
 
-  <section id="work" data-screen-label="Case Studies" class="section-work">
-    <div class="work-inner">
+  <section id="project" data-screen-label="Project" class="section-project">
+
+    <div></div>
+    <div class="project-body">
+
+    <div class="project-header">
+      <div class="project-title-row">
+        <div class="project-icon"><image-slot id="proj1-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <h2 class="project-title">A faster checkout built to convert</h2>
+      </div>
+      <p class="project-summary">Data showed 90%+ of orders were single-item, making a multi-item cart unnecessary. Removing it and simplifying checkout increased conversion and reduced time to purchase.</p>
+    </div>
+
+    <div class="media-row">
+      <div class="media-main"><div onClick="{{ openProjImg1 }}" class="media-click"><image-slot id="proj-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-side">
+        <div onClick="{{ openProjImg2 }}" class="media-click"><image-slot id="proj-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
+        <div onClick="{{ openProjImg4 }}" class="media-click"><image-slot id="proj-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+      </div>
+    </div>
+
+    <div class="project-details">
       <div>
-        <div class="eyebrow color-orange">Case Studies</div>
-        <h2 class="section-heading">Selected work</h2>
+        <h3 class="project-details-heading">Problem</h3>
+        <ul class="project-details-list">
+          <li><strong>Too many steps</strong> — shoppers moved through a separate cart page before checkout, adding an extra decision point that slowed them down.</li>
+          <li><strong>Busy, cluttered design</strong> — dense layouts and competing visual elements made it hard to focus on completing the purchase.</li>
+          <li><strong>Value not reinforced at checkout</strong> — pricing, shipping, and product benefits weren't visible where shoppers needed reassurance most.</li>
+          <li><strong>Limited payment options</strong> — a narrow set of payment methods created friction for shoppers who preferred other ways to pay.</li>
+        </ul>
       </div>
-
-      <div class="case-studies">
-
-        <article class="case-study">
-          <div class="case-study-media"><image-slot id="cs1-img" shape="rounded" radius="8" placeholder="Drop a checkout flow screenshot"></image-slot></div>
-          <div class="case-study-content">
-            <span class="case-study-eyebrow color-blue">LXE Hearing — Ecommerce</span>
-            <h3 class="case-study-title">Redesigning checkout to unlock financing</h3>
-            <p class="case-study-text"><strong>Problem:</strong> Buy Now, Pay Later financing was buried in checkout, creating friction right at the point of decision and suppressing adoption.</p>
-            <p class="case-study-text"><strong>Solution:</strong> Led a checkout flow redesign that surfaced financing options earlier and clarified terms at the moment users needed them most.</p>
-            <p class="case-study-text"><strong>Outcome:</strong> BNPL adoption increased 16%, reducing a major barrier to purchase.</p>
-          </div>
-        </article>
-
-        <article class="case-study">
-          <div class="case-study-content order-2">
-            <span class="case-study-eyebrow color-teal">Eargo — Product Detail Pages</span>
-            <h3 class="case-study-title">Testing PDPs to cut buying friction</h3>
-            <p class="case-study-text"><strong>Problem:</strong> Product detail pages left shoppers with unanswered questions, slowing the path to purchase.</p>
-            <p class="case-study-text"><strong>Solution:</strong> Redesigned and A/B tested PDP layouts and content to resolve open questions earlier in the journey.</p>
-            <p class="case-study-text"><strong>Outcome:</strong> Higher conversion rate alongside a shorter time-to-purchase.</p>
-          </div>
-          <div class="case-study-media order-1"><image-slot id="cs2-img" shape="rounded" radius="8" placeholder="Drop a PDP screenshot"></image-slot></div>
-        </article>
-
-        <article class="case-study">
-          <div class="case-study-media"><image-slot id="cs3-img" shape="rounded" radius="8" placeholder="Drop a design system screenshot"></image-slot></div>
-          <div class="case-study-content">
-            <span class="case-study-eyebrow color-orange">Eargo &amp; LXE Hearing — Design Systems</span>
-            <h3 class="case-study-title">Building a cross-brand design language</h3>
-            <p class="case-study-text"><strong>Problem:</strong> Design was inconsistent across three brands' websites, apps, and print materials, slowing teams and fragmenting the experience.</p>
-            <p class="case-study-text"><strong>Solution:</strong> Created the organization's first component-based design system, then evolved it into a shared, accessible language across web, mobile, and print.</p>
-            <p class="case-study-text"><strong>Outcome:</strong> Consistent, WCAG 2.1 AA-compliant experiences across 3 brands, 3 websites, and 3 mobile apps.</p>
-          </div>
-        </article>
-
+      <div>
+        <h3 class="project-details-heading">Solution</h3>
+        <ul class="project-details-list">
+          <li><strong>Removed the cart</strong> — shoppers now go straight to checkout, cutting an entire step from the path to purchase.</li>
+          <li><strong>Simplified the design</strong> — an intuitive, streamlined flow that's easy to understand and follow from start to finish.</li>
+          <li><strong>Added more payment options</strong> — elevated financing choices so shoppers can pay the way that works best for them.</li>
+          <li><strong>Built in trust and value</strong> — clearer confirmation of what shoppers are receiving, with free shipping and discounts highlighted throughout.</li>
+        </ul>
       </div>
+      <div>
+        <h3 class="project-details-heading">Outcome</h3>
+        <ul class="project-details-list">
+          <li><strong>Buy Now, Pay Later adoption increased</strong> — clearer financing options at checkout removed a major barrier to purchase.</li>
+          <li><strong>Conversion increased</strong> — the simplified, cart-free flow made it easier for shoppers to complete their purchase.</li>
+          <li><strong>Time spent checking out went down</strong> — fewer steps and a clearer design got shoppers through checkout faster.</li>
+        </ul>
+      </div>
+    </div>
+
     </div>
   </section>
 
-  <section id="resume" data-screen-label="Resume" class="section-resume">
-    <div class="resume-header">
-      <div>
-        <div class="eyebrow color-blue">Resume</div>
-        <h2 class="section-heading">Experience</h2>
+  <section id="project-3" data-screen-label="Mobile App Programs" class="section-project">
+
+    <div></div>
+    <div class="project-body">
+
+    <div class="project-header">
+      <div class="project-title-row">
+        <div class="project-icon"><image-slot id="proj3-icon" shape="rect" placeholder="Icon"></image-slot></div>
+        <h2 class="project-title">Eargo Mobile App</h2>
       </div>
-      <a href="./assets/Mark_Mrsnik_Resume.pdf" download="Mark_Mrsnik_Resume.pdf" class="btn btn--dark-bg btn--nowrap">Download PDF</a>
+      <p class="project-summary">The path to editing hearing programs was unclear and slow. I redesigned the flow end to end, giving users a clearer, faster way to adjust their programs.</p>
     </div>
 
-    <div class="timeline">
-
-      <div class="timeline-row">
-        <div class="timeline-date">2025 — Present</div>
-        <div>
-          <h3 class="timeline-title">Director of Product Design</h3>
-          <div class="timeline-org">LXE Hearing (Eargo, hearX, Lexie)</div>
-          <p class="timeline-desc">Led the product design team across 3 brands spanning 3 websites and 3 mobile apps, ensuring WCAG 2.1 AA compliance and shaping roadmap priorities alongside executive leadership.</p>
-        </div>
+    <div class="media-row">
+      <div class="media-main"><div onClick="{{ openProj3Img1 }}" class="media-click"><image-slot id="proj3-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-side">
+        <div onClick="{{ openProj3Img2 }}" class="media-click"><image-slot id="proj3-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
+        <div onClick="{{ openProj3Img4 }}" class="media-click"><image-slot id="proj3-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
       </div>
-
-      <div class="timeline-row">
-        <div class="timeline-date">2020 — 2025</div>
-        <div>
-          <h3 class="timeline-title">Lead Product Designer → Senior UX / Product Designer</h3>
-          <div class="timeline-org">Eargo</div>
-          <p class="timeline-desc">Created the company's first organization-wide design system; led design for native iOS, Android, and web applications; mentored junior and mid-level designers.</p>
-        </div>
-      </div>
-
-      <div class="timeline-row">
-        <div class="timeline-date">2022 — 2024</div>
-        <div>
-          <h3 class="timeline-title">UX/UI Bootcamp Instructor</h3>
-          <div class="timeline-org">2U : The Ohio State University</div>
-          <p class="timeline-desc">Taught two concurrent bootcamp sections covering the end-to-end design process, with mentorship and portfolio reviews for aspiring designers.</p>
-        </div>
-      </div>
-
-      <div class="timeline-row">
-        <div class="timeline-date">2015 — 2020</div>
-        <div>
-          <h3 class="timeline-title">Product Design Consultant</h3>
-          <div class="timeline-org">Independent Practice</div>
-          <p class="timeline-desc">Built and ran an independent design practice end-to-end, delivering websites, print, and mobile app work for clients including 2018 Inc. 500-recognized companies.</p>
-        </div>
-      </div>
-
-      <div class="timeline-row timeline-row--last">
-        <div class="timeline-date">2010 — 2015</div>
-        <div>
-          <h3 class="timeline-title">UI / UX Engineer</h3>
-          <div class="timeline-org">NCSA Athletic Recruiting</div>
-          <p class="timeline-desc">Led focus groups and web-based user testing; built fluid, cross-browser layouts aligned with business requirements and user feedback.</p>
-        </div>
-      </div>
-
     </div>
 
-    <div class="resume-footer">
+    <div class="project-details">
       <div>
-        <h3 class="resume-footer-heading">Education</h3>
-        <p class="resume-footer-name">Columbia College of Chicago</p>
-        <p class="resume-footer-detail">B.A. Interactive Arts &amp; Media, 2004 – 2009</p>
+        <h3 class="project-details-heading">Problem</h3>
+        <ul class="project-details-list">
+          <li><strong>Multi-step editing flow</strong> — what should have been a quick change took users through many separate steps.</li>
+          <li><strong>Unclear edit action</strong> — the edit button on the original screen didn't make clear what users were actually editing.</li>
+        </ul>
       </div>
       <div>
-        <h3 class="resume-footer-heading">Core Skills</h3>
-        <p class="core-skills">Design Strategy · DesignOps · Design Systems · Figma · Adobe Suite · HTML/CSS/JS · Agile · Prompt Engineering</p>
+        <h3 class="project-details-heading">Solution</h3>
+        <ul class="project-details-list">
+          <li><strong>Tied editing to the program slot</strong> — the edit action now lives directly on the program slot, making it clear which program is being edited.</li>
+          <li><strong>Larger touch targets</strong> — emphasized each program's touch target for easier, more confident interaction.</li>
+        </ul>
       </div>
+      <div>
+        <h3 class="project-details-heading">Outcome</h3>
+        <ul class="project-details-list">
+          <li><strong>Clearer available actions</strong> — users better understood what actions were available to them.</li>
+          <li><strong>Less confusion when editing</strong> — users had a clearer sense of what their changes were actually doing.</li>
+        </ul>
+      </div>
+    </div>
+
     </div>
   </section>
 
-  <section id="contact" data-screen-label="Contact" class="section-contact">
-    <div class="contact-inner">
-      <div class="eyebrow-contact">Contact</div>
-      <h2 class="contact-heading">Let's talk about your product and your team.</h2>
-      <div class="contact-actions">
-        <a href="mailto:mmrsnik@gmail.com" class="btn btn--light-bg">mmrsnik@gmail.com</a>
-        <a href="tel:3128609996" class="btn btn--outline-dark">312-860-9996</a>
-        <a href="https://www.mrsnik.com" class="btn btn--outline-dark">www.mrsnik.com</a>
+  <section id="gallery" data-screen-label="Gallery" class="section-gallery">
+    <div></div>
+    <div class="gallery-body">
+    <h2 class="gallery-heading">Gallery</h2>
+    <div class="media-row">
+      <div class="media-main"><div onClick="{{ openGalleryImg1 }}" class="media-click"><image-slot id="gallery-img-1" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-side">
+        <div onClick="{{ openGalleryImg2 }}" class="media-click"><image-slot id="gallery-img-2" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
+        <div onClick="{{ openGalleryImg4 }}" class="media-click"><image-slot id="gallery-img-4" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
       </div>
-      <div class="contact-copyright">© 2026 Mark Mrsnik</div>
+    </div>
+    <div class="media-row media-row--spaced">
+      <div class="media-main"><div onClick="{{ openGalleryImg5 }}" class="media-click"><image-slot id="gallery-img-5" shape="rounded" radius="8" placeholder="Drop image 1"></image-slot></div></div>
+      <div class="media-side">
+        <div onClick="{{ openGalleryImg6 }}" class="media-click"><image-slot id="gallery-img-6" shape="rounded" radius="8" placeholder="Drop image 2" class="media-thumb"></image-slot></div>
+        <div onClick="{{ openGalleryImg8 }}" class="media-click"><image-slot id="gallery-img-8" shape="rounded" radius="8" placeholder="Drop image 4" class="media-thumb"></image-slot></div>
+      </div>
+    </div>
     </div>
   </section>
 
-</div>
+  <sc-if value="{{ hasLightbox }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeLightbox }}" class="lightbox-overlay">
+      <sc-if value="{{ hasLightbox }}">
+        <img src="{{ lightboxSrc }}" class="lightbox-image">
+      </sc-if>
+    </div>
+  </sc-if>
+  </div>
 
 </x-dc>
+<script type="text/x-dc" data-dc-script>
+
+class Component extends DCLogic {
+  state = { lightbox: null };
+
+  openLightbox(id) {
+    const el = document.getElementById(id);
+    const img = el && el.shadowRoot && el.shadowRoot.querySelector('img');
+    const src = img && img.getAttribute('src');
+    if (src) this.setState({ lightbox: src });
+  }
+
+  closeLightbox() { this.setState({ lightbox: null }); }
+
+  renderVals() {
+    const mk = (id) => () => this.openLightbox(id);
+    return {
+      hasLightbox: !!this.state.lightbox,
+      lightboxSrc: this.state.lightbox || '',
+      closeLightbox: () => this.closeLightbox(),
+      openProjImg1: mk('proj-img-1'), openProjImg2: mk('proj-img-2'), openProjImg4: mk('proj-img-4'),
+      openProj2Img1: mk('proj2-img-1'), openProj2Img2: mk('proj2-img-2'), openProj2Img4: mk('proj2-img-4'),
+      openProj3Img1: mk('proj3-img-1'), openProj3Img2: mk('proj3-img-2'), openProj3Img4: mk('proj3-img-4'),
+      openGalleryImg1: mk('gallery-img-1'), openGalleryImg2: mk('gallery-img-2'), openGalleryImg4: mk('gallery-img-4'),
+      openGalleryImg5: mk('gallery-img-5'), openGalleryImg6: mk('gallery-img-6'), openGalleryImg8: mk('gallery-img-8')
+    };
+  }
+}</script>
 </body>
 </html>
